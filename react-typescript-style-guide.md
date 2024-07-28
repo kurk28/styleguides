@@ -379,7 +379,7 @@ const Router = ({ isLoggedIn }) => {
   if (isLoggedI) {
     return <MainPage />;
   } else {
-    <LoginPage />;
+    return <LoginPage />;
   }
 }
 
@@ -540,7 +540,6 @@ Additional rules that should  be turned on:
 - [no-unnecessary-condition](https://typescript-eslint.io/rules/no-unnecessary-condition)
 - [no-unused-expressions](https://eslint.org/docs/latest/rules/no-unused-expressions)
 - [no-unused-vars](https://eslint.org/docs/latest/rules/no-unused-vars)
-- [no-unused-vars](https://typescript-eslint.io/rules/no-unused-vars)
 - [no-use-before-define](https://eslint.org/docs/latest/rules/no-use-before-define)
 - [no-return-await](https://eslint.org/docs/latest/rules/no-return-await)
 - [no-duplicate-imports](https://eslint.org/docs/latest/rules/no-duplicate-imports)
